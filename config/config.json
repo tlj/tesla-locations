@@ -1,0 +1,17 @@
+{
+  "daemon": false,
+  "interval_minutes": 1440,
+  "currency": "NOK",
+  "log_level": "warn",
+  "output": "Console",
+  "radius": 50,
+  "countries": [
+    "Norway",
+    "Denmark"
+  ],
+  "location_types": [
+    "supercharger",
+    "standard charger",
+    "destination charger"
+  ]
+}

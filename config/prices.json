@@ -1,0 +1,188 @@
+{
+  "Australia": {
+    "cost_per_unit": 0.42,
+    "currency": "AUD",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Austria": {
+    "cost_per_unit": 0.28,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Belgium": {
+    "cost_per_unit": 0.28,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Canada": {
+    "cost_per_unit": 0.44,
+    "currency": "CAD",
+    "billing_type": "per_minute",
+    "session_fee": 0
+  },
+  "China": {
+    "cost_per_unit": 1.95,
+    "currency": "CNY",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Croatia": {
+    "cost_per_unit": 1.68,
+    "currency": "HRK",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Czech Republic": {
+    "cost_per_unit": 6.31,
+    "currency": "CZK",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Denmark": {
+    "cost_per_unit": 2.90,
+    "currency": "DKK",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Finland": {
+    "cost_per_unit": 0.24,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "France": {
+    "cost_per_unit": 0.24,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Germany": {
+    "cost_per_unit": 0.33,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Hong Kong": {
+    "cost_per_unit": 3.10,
+    "currency": "HKD",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Hungary": {
+    "cost_per_unit": 73.24,
+    "currency": "HUF",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Ireland": {
+    "cost_per_unit": 0.29,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Italy": {
+    "cost_per_unit": 0.31,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Japan": {
+    "cost_per_unit": 40.00,
+    "currency": "JPY",
+    "billing_type": "per_minute",
+    "session_fee": 0
+  },
+  "Liechtenstein": {
+    "cost_per_unit": 0.30,
+    "currency": "CHF",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Luxembourg": {
+    "cost_per_unit": 0.25,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Netherlands": {
+    "cost_per_unit": 0.25,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "New Zealand": {
+    "cost_per_unit": 0.42,
+    "currency": "NZD",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Norway": {
+    "cost_per_unit": 1.70,
+    "currency": "NOK",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Poland": {
+    "cost_per_unit": 1.24,
+    "currency": "PLN",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Slovakia": {
+    "cost_per_unit": 0.25,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Slovenia": {
+    "cost_per_unit": 0.26,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "South Korea": {
+    "cost_per_unit": 313,
+    "currency": "KRW",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Spain": {
+    "cost_per_unit": 0.29,
+    "currency": "EUR",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Sweden": {
+    "cost_per_unit": 2.56,
+    "currency": "SEK",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Switzerland": {
+    "cost_per_unit": 0.30,
+    "currency": "CHF",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "Taiwan": {
+    "cost_per_unit": 10.00,
+    "currency": "TWD",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "United Kingdom": {
+    "cost_per_unit": 0.24,
+    "currency": "GBP",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  },
+  "United States": {
+    "cost_per_unit": 0.28,
+    "currency": "USD",
+    "billing_type": "per_kwh",
+    "session_fee": 0
+  }
+}
