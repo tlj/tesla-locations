@@ -3,12 +3,12 @@ package app
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	"tesla-locations/locations"
+	"github.com/tlj/tesla"
 )
 
 type App struct {
 	Config Config
-	Client locations.ClientInterface
+	Client *tesla.Client
 	Prices Prices
 	Rates  map[string]float64
 }
@@ -63,7 +63,8 @@ func (a *App) Init() error {
 		return err
 	}
 
-	a.Client = locations.NewClient("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0")
+	//a.Client = locations.NewClient("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0")
+	a.Client = tesla.NewClient()
 
 	return nil
 }

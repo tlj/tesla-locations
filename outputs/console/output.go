@@ -2,8 +2,8 @@ package console
 
 import (
 	"fmt"
+	"github.com/tlj/tesla"
 	"tesla-locations/app"
-	"tesla-locations/locations"
 )
 
 type Console struct {
@@ -23,7 +23,7 @@ func (c *Console) Open() error {
 	return nil
 }
 
-func (c *Console) Store(location locations.Location) error {
+func (c *Console) Store(location tesla.Location) error {
 	costPerUnit := 0.0
 	billingType := app.BillingTypePerKwh
 

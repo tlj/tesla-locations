@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"github.com/kelseyhightower/envconfig"
 	log "github.com/sirupsen/logrus"
+	"github.com/tlj/tesla"
 	"strconv"
 	"tesla-locations/app"
-	"tesla-locations/locations"
 	"time"
 )
 
@@ -60,7 +60,7 @@ func (t *Output) Open() error {
 	return nil
 }
 
-func (t *Output) Store(location locations.Location) error {
+func (t *Output) Store(location tesla.Location) error {
 	// Don't save chargers which haven't opened yet
 	if location.OpenSoon == "1" {
 		return nil

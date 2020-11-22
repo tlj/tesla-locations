@@ -6,8 +6,7 @@
   "output": "Console",
   "radius": 50,
   "countries": [
-    "Norway",
-    "Denmark"
+    "Norway"
   ],
   "location_types": [
     "supercharger",

@@ -37,7 +37,11 @@ func run(a *app.App) error {
 		log.Infof("Found price for %s: %f %s %s", country, price.ConvertedCostPerUnit, a.Config.Currency, price.BillingType)
 	}
 
-	chargers, err := a.Client.Countries(a.Config.Countries, a.Config.LocationTypes)
+	locations, err := a.Client.Locations()
+	if err != nil {
+		return err
+	}
+	chargers, err := locations.Countries(a.Config.Countries, a.Config.LocationTypes)
 	if err != nil {
 		return err
 	}

@@ -5,13 +5,13 @@ import (
 	gf "flag"
 	"fmt"
 	"github.com/kelseyhightower/envconfig"
+	"github.com/tlj/tesla"
 	"io/ioutil"
 	"strings"
-	"tesla-locations/locations"
 )
 
 type CountryList []string
-type LocationTypeList []locations.LocationType
+type LocationTypeList []tesla.LocationType
 
 type Config struct {
 	Daemon          bool             `json:"daemon" envconfig:"LOCATION_DAEMON"`
@@ -58,7 +58,7 @@ func (cl *LocationTypeList) Decode(value string) error {
 	countries := strings.Split(value, ";")
 	out := LocationTypeList{}
 	for _, c := range countries {
-		out = append(out, locations.LocationType(c))
+		out = append(out, tesla.LocationType(c))
 	}
 	*cl = out
 	return nil
@@ -73,7 +73,7 @@ func (cl *LocationTypeList) String() string {
 }
 
 func (cl *LocationTypeList) Set(value string) error {
-	*cl = append(*cl, locations.LocationType(value))
+	*cl = append(*cl, tesla.LocationType(value))
 	return nil
 }
 
